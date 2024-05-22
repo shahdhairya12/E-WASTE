@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific Page Styles */
+h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Home Page Styles */
+header h1 {
+    font-size: 2em;
+}
+
+/* About Page Styles */
+#about h2 {
+    color: #008080;
+}
+
+/* Recycling Page Styles */
+#recycling h2 {
+    color: #ff6347;
+}
+
+/* Locations Page Styles */
+#locations h2 {
+    color: #6a5acd;
+}
+
+/* Contact Page Styles */
+#contact h2 {
+    color: #20b2aa;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px 0;
+    }
+}
